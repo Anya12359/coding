@@ -1,0 +1,22 @@
+//product of two numbers
+#include<iostream>
+using namespace std;
+int main()
+{
+    char name;
+    cout<<" Enter your name: ";
+    cin>>name;
+    int a;
+    cout<<" Enter your age: ";
+    cin>>a;
+        if(a>=18)
+        {
+             cout<<"Eligible to vote";
+        }
+        else
+        {
+             cout<<"Not eligible to vote";
+        }
+        
+    return 0;
+}
